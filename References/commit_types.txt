@@ -1,0 +1,28 @@
+Type        Purpose
+
+feat        Introduces a new feature
+fix         Fixes a bug
+docs        Updates documentation
+style       Code style changes (no logic changes)
+refactor    Code refactoring (no behavior change)
+perf        Performance improvements
+test        Adds or updates tests
+chore       Maintenance tasks (e.g., updating dependencies)
+ci          Changes to CI/CD pipelines
+revert      Reverts a previous commit
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Ex: 
+feat(auth): add JWT-based authentication
+
+This update replaces the existing session-based authentication with
+JWT tokens, improving security and scalability. The following changes
+were made:
+
+- Implement JWT token generation and validation
+- Update login and signup endpoints to return JWT tokens
+- Add middleware for token verification
+- Update frontend to store and send tokens in requests
+
+Fixes #42 (Refer to issue number)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
